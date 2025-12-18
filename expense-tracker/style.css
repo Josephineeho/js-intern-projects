@@ -1,0 +1,38 @@
+body {
+    font-family: Arial sans-serif;
+    background: #f4f4f4;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: white;
+    align-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+input, button {
+    width:  300px;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186, 186, 186);
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    list-style: none;
+    width: 300px;
+}
+.high {
+    color: red;
+    font-weight: bold;
+}
+.delete {
+    cursor: pointer;
+    color: red;
+}
