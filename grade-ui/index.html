@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grade GUI</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="top">
+            <input type="text"  id="name" placeholder="Enter Student's name...">
+            <input type="number" name="" id="score" placeholder="Enter Student's Score..."> 
+            <button onclick="checkGrade()">Check Grade</button>
+            <button onclick="clearAll()">Clear All</button>
+            <button onclick="showAll()">Show All</button>
+            <div class="disp">
+                <span id="dispname"></span>
+                <span id="dispscore"></span>
+                <span id="dispgrade"></span>
+            </div>
+            <div class="bottom">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer>
+        
+    </script>
 </body>
 </html>
